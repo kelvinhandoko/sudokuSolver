@@ -92,6 +92,7 @@ button.addEventListener("click", () => {
 
     allInput.forEach((input, index) => {
         input.value = flattedGrid[index]
+        input.setAttribute("readonly", "true")
     })
 })
 
